@@ -1,0 +1,43 @@
+@reference "tailwindcss";
+
+.CitationWrapper{
+    @apply mt-8 mb-10 px-12;
+}
+
+.Citation{
+    padding:1rem 1rem .5rem 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    border-radius: .25rem;
+
+    &::before{
+        content: open-quote;
+        color: var(--primary-1);
+        font-family: var(--font-1);
+        position: absolute;
+        top:5px;
+        left:5px;
+        font-size:100px;
+        line-height: 100px;
+        opacity: .1;
+    }
+}
+
+.Citation blockquote{
+    font-size: var(--font-s);
+    font-family: var(--font-1);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Author{
+    font-size: var(--font-xs);
+    text-align: right;
+}
+
+@media screen and (min-width:600px) {
+    .CitationWrapper{
+        @apply mx-auto;
+        width:600px;
+    }       
+}

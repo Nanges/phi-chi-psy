@@ -1,0 +1,17 @@
+@reference 'tailwindcss';
+
+.DesktopMenuWrapper{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 7px;
+}
+
+.DesktopMenu{
+    display:flex;
+    justify-content: center;
+}
+
+.DesktopMenu ul{
+    @apply py-2;
+    display:flex;
+    align-items: center;
+    gap:1.5rem;
+}

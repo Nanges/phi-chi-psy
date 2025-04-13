@@ -1,0 +1,80 @@
+.MenuButton{
+    position:absolute;
+    top:4px;
+    left:4px;
+    z-index:1;
+    width:24px;
+    height:24px;
+    opacity:1;
+
+    .Icon{
+        fill:var(--secondary-1)
+    }
+}
+
+.MenuCloseButton{
+    position:absolute;
+    top:4px;
+    right:4px;
+    width:24px;
+    height:24px;
+    opacity:1;
+
+    .Icon{
+        fill:#aaa;
+    }
+}
+
+.MenuButton.open{
+    opacity:0;
+}
+
+.MenuPane{
+    z-index:10;
+    background-color: var(--background);
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:calc(-75% - 24px);
+    width:75%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    opacity: 0;
+    transition: left ease-out .4s, opacity ease-out .2s;
+    padding: 2rem 1rem;
+}
+
+.MenuPane li{
+    display:flex;
+    align-items: center;
+}
+
+.MenuPane li::before{
+    content:'chevron_right';
+    font-family: Material Symbols Outlined;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color:var(--secondary-1);
+}
+
+.Brain{
+    width:150px;
+    height: 150px;
+    fill: var(--foreground);
+    opacity: .4;
+}
+
+.MenuPane.open{
+    left:0;
+    opacity:1;
+}
+
+.BrandWrapper{
+    display:flex;
+    justify-content: center;
+}
+
+.Brand{
+    font-size: 10px;
+    margin-bottom: 2rem;
+    opacity: .5;
+}

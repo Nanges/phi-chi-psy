@@ -1,0 +1,59 @@
+.Footer{
+    position: relative;
+    overflow-y:hidden;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    color: #aaa;
+    background-color: #252525;
+}
+
+.Footer a:active,
+.Footer a:focus,
+.Footer a:hover,
+.Footer a{
+    color:#aaa;
+}
+
+.Footer::before{
+    content:' ';
+    position:absolute;
+    top:0;
+    display:block;
+    height:11px;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, .7) 0px 3px 8px;
+    transform: translateY(-11px);
+}
+
+.Brain{
+    fill:#888;
+    width:120px;
+    height:120px;
+}
+
+.BrainWrapper{
+    padding-right: 1.5rem;
+    border-right:1px solid #444;
+}
+
+.Container{
+    display:flex;
+    justify-content: center;
+    gap:1.5rem;
+}
+
+.ContactDataWrapper{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    font-size: var(--font-s);
+}
+
+.AddressTitle{
+    font-size: var(--font-lg);
+    color: #ccc;
+}
+
+.Address{
+    font-style:normal;
+}

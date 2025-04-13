@@ -1,0 +1,133 @@
+[
+  {
+    "theme": "Résilience & Adversité",
+    "citations": [
+      {
+        "citation": "Nul ne peut atteindre l’aube sans passer par l'obscurité de la nuit.",
+        "auteur": "Kahlil Gibran"
+      },
+      {
+        "citation": "Les blessures sont les endroits par où la lumière entre.",
+        "auteur": "Rumi"
+      },
+      {
+        "citation": "L’Homme se découvre quand il se mesure à l’obstacle.",
+        "auteur": "Antoine de Saint-Exupéry"
+      },
+      {
+        "citation": "L’épreuve est le creuset de l’âme.",
+        "auteur": "Plutarque"
+      },
+      {
+        "citation": "Quand tout semble contre vous, souvenez-vous que l’avion décolle face au vent.",
+        "auteur": "Henry Ford"
+      },
+      {
+        "citation": "La vie mettra des pierres sur ta route. À toi de décider si tu en fais des murs ou des ponts.",
+        "auteur": "Proverbe indien"
+      },
+      {
+        "citation": "Chaque cicatrice est une preuve que la blessure a guéri.",
+        "auteur": "Proverbe persan"
+      },
+      {
+        "citation": "Ce que l’on appelle échec n’est pas la chute, mais le refus de se relever.",
+        "auteur": "Paulo Coelho"
+      },
+      {
+        "citation": "Le destin mélange les cartes, et nous jouons.",
+        "auteur": "Arthur Schopenhauer"
+      }
+    ]
+  },
+  {
+    "theme": "Changement & Mouvement",
+    "citations": [
+      {
+        "citation": "Rien n’est permanent, sauf le changement.",
+        "auteur": "Héraclite"
+      },
+      {
+        "citation": "Lorsque le vent du changement souffle, certains construisent des murs, d’autres des moulins.",
+        "auteur": "Proverbe chinois"
+      },
+      {
+        "citation": "Le fleuve atteint son but parce qu’il sait contourner les obstacles.",
+        "auteur": "Proverbe chinois"
+      },
+      {
+        "citation": "La rivière atteint son but, non en force, mais en persistance.",
+        "auteur": "Proverbe taoïste"
+      },
+      {
+        "citation": "Il n’est pas nécessaire d’aller vite, seulement de ne pas s’arrêter.",
+        "auteur": "Confucius"
+      },
+      {
+        "citation": "L’arbre qui tombe fait plus de bruit que la forêt qui pousse.",
+        "auteur": "Proverbe africain"
+      },
+      {
+        "citation": "L’homme qui déplace une montagne commence par déplacer de petites pierres.",
+        "auteur": "Confucius"
+      },
+      {
+        "citation": "La douleur est inévitable, la souffrance est optionnelle.",
+        "auteur": "Proverbe bouddhiste"
+      }
+    ]
+  },
+  {
+    "theme":"Force intérieure & Maîtrise de soi",
+    "citations": [
+      {
+        "citation": "Celui qui domine les autres est fort, mais celui qui se domine est puissant.",
+        "auteur": "Lao Tseu"
+      },
+      {
+        "citation": "Le calme est le cri le plus puissant.",
+        "auteur": "Gandhi"
+      },
+      {
+        "citation": "Un oiseau posé sur une branche ne craint pas qu'elle casse, car sa confiance est dans ses ailes.",
+        "auteur": "Proverbe"
+      },
+      {
+        "citation": "Celui qui n’a pas d’objectifs ne risque pas de les atteindre.",
+        "auteur": "Sun Tzu"
+      },
+      {
+        "citation": "Il faut toute une vie pour apprendre à vivre.",
+        "auteur": "Sénèque"
+      },
+      {
+        "citation": "Connais-toi toi-même.",
+        "auteur": "Socrate"
+      }
+    ]
+  },
+  {
+    "theme":"Ressources intérieures & Sagesse de vie",
+    "citations": [
+      {
+        "citation": "Deviens ce que tu es.",
+        "auteur": "Nietzsche"
+      },
+      {
+        "citation": "Il n’y a pas de vent favorable pour celui qui ne sait pas où il va.",
+        "auteur": "Sénèque"
+      },
+      {
+        "citation": "L’expérience est une lanterne qu’on porte dans le dos et qui n’éclaire que le chemin parcouru.",
+        "auteur": "Confucius"
+      },
+      {
+        "citation": "La vraie générosité envers l’avenir consiste à tout donner au présent.",
+        "auteur": "Albert Camus"
+      },
+      {
+        "citation": "Mieux vaut allumer une bougie que maudire l’obscurité.",
+        "auteur": "Lao Tseu"
+      }
+    ]
+}]

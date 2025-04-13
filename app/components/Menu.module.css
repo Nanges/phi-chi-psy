@@ -1,0 +1,22 @@
+.Menu a{
+    font-family: var(--font-1);
+    font-size: var(--font-lg);
+    font-weight: 700;
+    color:var(--secondary-1);
+    transition: color ease-in .2s;
+    text-decoration: none;
+}
+
+.Menu a:focus,
+.Menu a:active,
+.Menu a:hover{
+    color:var(--secondary-2);
+}
+
+.Menu li.Active a{
+    color:var(--primary-1);
+}
+
+.Menu li.Active::before {
+    color:var(--primary-1);
+}

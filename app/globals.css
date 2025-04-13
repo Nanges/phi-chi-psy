@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #575151;
+  
+  /* Primary color */
+  --primary-1: #05668C;
+
+  /* Secondary color */
+  --secondary-1:rgb(138, 125, 107);
+  --secondary-2: rgb(206, 82, 0);
+
+  /* Font */
+  --font-1: "Gentium Plus", serif;
+  --font-2: Arial, Helvetica, sans-serif;
+
+  --font-xs: .75rem;
+  --font-s: .875rem;
+  --font-normal: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+  --font-3xl: 1.75rem;
+  --font-4xl: 1.875rem;
+  --font-5xl: 2rem;
+
+  /* Brand */
+  --brand-color: var(--foreground);
+}
+
+html,body{
+  min-height:100vh;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-2);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-1);
+  color: var(--primary-1);
+}
+
+a{
+  color: var(--primary-1);
+  text-decoration: underline;
+}
+
+a:focus,
+a:active,
+a:hover{
+    color:var(--secondary-2);
+}
+
+.font-lg, h6{ 
+  font-size: var(--font-lg);
+  line-height: 1.1;
+}
+
+.font-xl, h5{ 
+  font-size: var(--font-xl);
+  line-height: 1.1;
+}
+
+.font-2xl, h4{ 
+  font-size: var(--font-2xl);
+  line-height: 1.1;
+}
+
+.font-3xl, h3{ 
+  font-size: var(--font-3xl);
+  line-height: 1.1;
+}
+
+.font-4xl, h2{ 
+  font-size: var(--font-4xl); 
+  line-height: 1.1;
+}
+
+.font-5xl, h1{ 
+  font-size: var(--font-5xl);
+  line-height: 1.1;
+}
+
+/* Container */
+.container{
+  @apply px-4;
+  @apply mx-auto;
+}
+
+/* List */
+ul.list{
+  padding-left: 2rem;
+  list-style-type: initial;
+}
+
+/* Definition list */
+
+dl.dl{
+  padding-left:2rem;
+}
+
+dl.dl dt,
+dl.dl dd{
+  display:inline;
+}
+
+dl.dl dt{
+  font-weight: 700;
+  margin-right: .5rem;
+}
+
+dl.dl div{
+  display: list-item;
+}

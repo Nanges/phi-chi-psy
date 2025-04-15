@@ -7,7 +7,11 @@ import styles from "./layout.module.css";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.phichipsy.be'),
   description: "Philippe Anciaux - Psychologue",
+  alternates:{
+    canonical:'./'
+  }
 };
 
 export default function RootLayout({

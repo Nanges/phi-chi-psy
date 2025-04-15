@@ -13,7 +13,7 @@ export default function BoiteAOutil(){
             <p className="my-3">Voici une liste non exhaustive de pratiques, à explorer en individuel ou en groupe.</p>
             <ul className="list">
                 <li>Relaxation et imagerie mentale</li>
-                <li>PNL, AT, CNV, assertivité</li>
+                <li>Communication (PNL, AT, CNV...)</li>
                 <li>Gestion de conflit, du stress, du temps</li>
                 <li>Jeux (de rôles, de société, en coopération)</li>
                 <li>Astuces de mémorisation</li>

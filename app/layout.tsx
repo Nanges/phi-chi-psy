@@ -5,6 +5,7 @@ import MobileMenu from "./components/MobileMenu";
 import DesktopMenu from "./components/DesktopMenu";
 import styles from "./layout.module.css";
 import Footer from "./components/Footer";
+import TopSkipLink from "./components/TopSkipLink";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.phichipsy.be'),
@@ -26,10 +27,11 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
       </head>
       <body>
+        <TopSkipLink/>
         <MobileMenu />
         <Banner/>
         <DesktopMenu/>
-        <div className={styles.MainWrapper}>
+        <div className={styles.MainWrapper} id="content" tabIndex={-1}>
           {children}
         </div>
         <Footer />

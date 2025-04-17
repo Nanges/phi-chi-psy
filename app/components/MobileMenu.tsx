@@ -31,7 +31,7 @@ export default function MobileMenu(){
             <MenuIcon className={styles.Icon}/>
         </button>
         
-        <nav className={cn(styles.MenuPane, open ? styles.open : null)}>
+        <nav className={cn(styles.MenuPane, open ? styles.open : null, 'sm:hidden')}>
             <button type="button" className={styles.MenuCloseButton} onClick={toggle} aria-label="Fermer le menu">
                 <CloseIcon className={styles.Icon}/>
             </button>

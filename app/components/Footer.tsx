@@ -3,7 +3,7 @@ import Brain from './Brain';
 import styles from './Footer.module.css';
 
 export default function Footer(){
-    return <footer className={styles.Footer}>
+    return <footer className={styles.Footer} id="footer" tabIndex={-1}>
         <div className={cn("container", styles.Container)}>
             <div className={styles.BrainWrapper}>
                 <Brain className={styles.Brain}/>

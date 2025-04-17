@@ -1,5 +1,5 @@
 .MainWrapper{
     flex-grow: 1;
     margin-bottom: 2.5rem;
-    height:0;
+    position: relative;
 }

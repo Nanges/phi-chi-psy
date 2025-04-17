@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "postbuild": "node scripts/dist-ftp.mjs",
+    "postbuild": "node scripts/post-build.mjs",
     "start": "next start",
     "lint": "next lint"
   },

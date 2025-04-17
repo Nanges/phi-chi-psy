@@ -1,9 +1,11 @@
 import { Client } from "basic-ftp"
 import 'dotenv/config';
+import { copyFileSync } from "fs";
 
-uplaodDist()
+copyFileSync('.htaccess', 'dist/.htaccess');
+uploadDist();
 
-async function uplaodDist() {
+async function uploadDist() {
     const client = new Client()
     client.ftp.verbose = true
     try {

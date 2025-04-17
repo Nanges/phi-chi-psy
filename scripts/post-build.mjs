@@ -1,8 +1,6 @@
 import { Client } from "basic-ftp"
 import 'dotenv/config';
-import { copyFileSync } from "fs";
 
-copyFileSync('.htaccess', 'dist/.htaccess');
 uploadDist();
 
 async function uploadDist() {

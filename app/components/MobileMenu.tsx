@@ -27,7 +27,7 @@ export default function MobileMenu(){
     },[open]);
 
     return <>
-        <button type="button" className={cn('sm:hidden',styles.MenuButton, open ? styles.open : null)} onClick={toggle} disabled={open} aria-label="Menu">
+        <button type="button" className={cn('flex','sm:hidden',styles.MenuButton, open ? styles.open : null)} onClick={toggle} disabled={open} aria-label="Menu">
             <MenuIcon className={styles.Icon}/>
         </button>
         

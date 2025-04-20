@@ -26,6 +26,7 @@ export default function MentionsLegales(){
             </p>
             <p className="my-3">Toute reproduction, représentation, modification, publication, transmission, ou adaptation, partielle ou intégrale, de ce contenu, par quelque moyen que ce soit, est interdite sans l'autorisation écrite préalable de l’éditeur du site.</p>
             <p className="my-3">Toute utilisation non autorisée constitue une contrefaçon et peut engager la responsabilité civile et/ou pénale de son auteur, conformément aux articles XI.165 et suivants du Code de droit économique belge.</p>
+            <p className="my-3">L'impression des pages est autorisé pour un usage privé uniquement</p>
         </main>
     </CitationLayout>
 }

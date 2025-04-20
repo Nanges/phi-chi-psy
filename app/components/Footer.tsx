@@ -1,6 +1,7 @@
 import { cn } from '@/libs/utils';
 import Brain from './Brain';
 import styles from './Footer.module.css';
+import Link from 'next/link';
 
 export default function Footer(){
     return <footer className={styles.Footer} id="footer" tabIndex={-1}>
@@ -17,6 +18,13 @@ export default function Footer(){
                 <p><a href="mailto:philippe.anciaux@phichipsy.be">philippe.anciaux@phichipsy.be</a></p>
                 <p><a href="tel:+32 471 06 31 42">+32 471 06 31 42</a></p>
             </div>
+        </div>
+        <div className="container mt-8">
+            <p className='font-xs justify-center flex gap-2'>
+                <span>Copyright &copy; Tous droits réservés</span>
+                <span aria-hidden>-</span>
+                <Link href="mentions-legales">Mentions légales</Link>
+            </p>
         </div>
     </footer>
 }

@@ -46,7 +46,7 @@
     width:75%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     opacity: 0;
-    transition: left ease-out .4s, opacity ease-out .2s;
+    transition: left ease-out .2s, opacity ease-out .2s;
     padding: 2rem 1rem;
 }
 
